@@ -1,0 +1,28 @@
+name: suitmedia_mobile_test_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  freezed_annotation: ^2.4.1
+  http: ^1.2.1
+  json_serializable: ^6.8.0
+
+dev_dependencies:
+  build_runner: ^2.4.11
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.5.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
